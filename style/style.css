@@ -1,9 +1,18 @@
 @charset 'UTF-8';
+@font-face {
+  font-family: 'BQ Regular';
+  src: url('../assets/fonts/Block\ Berthold\ BQ\ Regular.otf');
+}
+
+body{
+  font-family: 'BQ Regular', Arial, Helvetica, sans-serif;
+}
 
 .header {
   position: fixed;  
   width: 100%;
-  background: white;  
+  background: white;
+  z-index: 1;  
 }
 
 .header__content {
@@ -15,7 +24,7 @@
 
 .menu {
   font-size: 12px;
-  width: 450px;
+  width: 400px;
   align-items: center;
 }
 
@@ -35,20 +44,84 @@
 }
 
 .introducao {
-  display: flex;
-  justify-content: space-between;
+  display: flex;  
   align-items: center;
   background: #EFE1DA;
   width: 100%;  
-  height: 100vh;
+  height: 623px;
 }
 
-.introducao__content {
-  font-size: 20px;    
+.introducao__content h1 {
+  display: flex;  
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  color: #FAAF18;
+  margin: 20px 0;  
 }
 
-.portfolio {
- display: block;
+.introducao__content h1 > img {
+  margin-left: 30px;
+}
+
+.introducao__content .price {
+  display: flex;  
+  font-size: 40pt;
+  margin-bottom: 5px;
+  color: #FAAF18;
+}
+
+.introducao__content .arrow {
+  position: relative;
+  top: 90px;
+}
+
+.btn {  
+  position: relative;
+  font-family: 'BQ Regular', Arial, Helvetica, sans-serif;
+  background: #59291C;  
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 208px;
+  height: 64px;
+  top: -65px;
+  left: 305px;
+}
+
+
+.produtos-menu__content {
+  align-items: center;  
+}
+
+.produtos-menu__content p {      
+  position: relative;      
+  display: flex;
+  align-items: center;
+  color: white;  
+  top: 673px;      
+  left: 45px;
+}
+
+.produtos-menu__content p > img {
+  margin: 10px;
+}
+
+.background-menu {
+  position: absolute;
+  top: 0px;
+  right: 80px;  
+  height: 753px;
+  width: 528px;
+  background: #FAAF18;
+  border-radius: 0px 0px 12px 12px;  
+}
+
+.combo-menu {
+  position: absolute;
+  top: 145px;
+  right: -74px;
 }
 
 
