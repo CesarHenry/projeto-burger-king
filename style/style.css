@@ -34,13 +34,16 @@ body{
   list-style: none;        
 }
 
-.menu li a {
+.menu__list li a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   text-transform: uppercase;
+  color: #59291C;
 }
 
-.menu li a img {
-  margin-right: 10px;
+.menu__list .icon {
+  margin-right: 10px;    
 }
 
 .introducao {
@@ -55,18 +58,18 @@ body{
   display: flex;  
   align-items: center;
   text-transform: uppercase;
-  font-size: 20pt;
+  font-size: 25pt;
   color: #FAAF18;
   margin: 20px 0;  
 }
 
 .introducao__content h1 > img {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .introducao__content .price {
   display: flex;  
-  font-size: 40pt;
+  font-size: 55pt;
   margin-bottom: 5px;
   color: #FAAF18;
 }
@@ -90,7 +93,6 @@ body{
   left: 305px;
 }
 
-
 .produtos-menu__content {
   align-items: center;  
 }
@@ -99,9 +101,10 @@ body{
   position: relative;      
   display: flex;
   align-items: center;
+  font-size: 10pt;
   color: white;  
-  top: 673px;      
-  left: 45px;
+  top: 630px;      
+  left: 35px;
 }
 
 .produtos-menu__content p > img {
@@ -112,7 +115,7 @@ body{
   position: absolute;
   top: 0px;
   right: 80px;  
-  height: 753px;
+  height: 683px;
   width: 528px;
   background: #FAAF18;
   border-radius: 0px 0px 12px 12px;  
@@ -123,6 +126,62 @@ body{
   top: 145px;
   right: -74px;
 }
+
+.marketing {   
+  width: 100%;
+  background: #ED7902;
+  height: 200px;
+}
+
+.marketing__content {
+  display: flex;
+  align-items: center;  
+}
+
+.marketing__content > p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+  font-size: 13pt;
+  color: #475993;
+  right: 520px;
+  top: 30px;
+}
+
+.marketing__content > p > img {
+  margin: 20px;
+}    
+
+.title h1 {
+  color: white;
+  font-size: 14pt;
+  margin-bottom: 10px;
+}
+
+.title h2 {
+  color: #59291C;
+  font-size: 35pt;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.marketing__content .logo {
+  position: relative;
+  right: 550px;
+}
+
+.marketing__content .arrows {
+  position: relative;
+  left: 100px;
+}
+
+.background-contact {
+  position: relative;
+  right: 117px;
+  top: 30px;
+}
+
 
 
 
