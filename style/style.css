@@ -24,7 +24,7 @@ body{
 
 .menu {
   font-size: 12px;
-  width: 400px;
+  width: 40%;
   align-items: center;
 }
 
@@ -48,10 +48,15 @@ body{
 
 .introducao {
   display: flex;  
-  align-items: center;
+  align-items: center;  
   background: #EFE1DA;
   width: 100%;  
   height: 623px;
+}
+
+.introducao__content {
+  width: 50%;
+  justify-content: space-between;
 }
 
 .introducao__content h1 {
@@ -93,98 +98,124 @@ body{
   left: 305px;
 }
 
-.produtos-menu__content {
-  align-items: center;  
-}
-
-.produtos-menu__content p {      
-  position: relative;      
-  display: flex;
-  align-items: center;
-  font-size: 10pt;
-  color: white;  
-  top: 630px;      
-  left: 35px;
-}
-
-.produtos-menu__content p > img {
-  margin: 10px;
-}
-
-.background-menu {
-  position: absolute;
-  top: 0px;
-  right: 80px;  
-  height: 683px;
-  width: 528px;
-  background: #FAAF18;
-  border-radius: 0px 0px 12px 12px;  
-}
-
-.combo-menu {
-  position: absolute;
-  top: 145px;
-  right: -74px;
-}
-
-.marketing {   
+.produtos__main {
+  display: flex;   
+  height: 623px;
   width: 100%;
-  background: #ED7902;
-  height: 200px;
+  background: #EFE1DA;  
 }
 
-.marketing__content {
-  display: flex;
-  align-items: center;  
-}
-
-.marketing__content > p {
+.produtos__content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+   
+}
+
+.produtos__anuncio {
+  width: 50%;  
+}
+
+.produtos__combo {
   position: relative;
-  white-space: nowrap;
-  font-size: 13pt;
-  color: #475993;
-  right: 520px;
-  top: 30px;
+  width: 50%;  
 }
 
-.marketing__content > p > img {
-  margin: 20px;
-}    
-
-.title h1 {
+.informative-combo {
+  position: absolute;
+  display: flex;
+  align-items: center;  
   color: white;
-  font-size: 14pt;
-  margin-bottom: 10px;
+  font-size: 10pt;
+  top: 280px;
+  right: 105px;
 }
 
-.title h2 {
-  color: #59291C;
-  font-size: 35pt;
+.informative-combo > img {
+  padding: 10px;
+}
+
+.combo {
+  position: absolute;
+  max-width: 100%;
+  top: -160px;
+  right: 8px;   
+}
+
+.background-yellow {
+  position: absolute;  
+  top: -390px;
+  right: 45px;
+}
+
+.publicity {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background: #ED7902;    
+}
+
+.publicity__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.publicity__login {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 50%;  
+}
+
+.login h1 {
+  font-size: 15pt;
+  color: white;
+}
+
+.login h2 {
+  font-size: 30pt;
   white-space: nowrap;
   text-transform: uppercase;
+  color: #59291C;
 }
 
-.marketing__content .logo {
+.login__banner {
+  max-width: 100%;
+}
+
+.banner_orange {
+  position: absolute;
+  top: -70px;
+  right: 430px;
+}
+
+.arrows {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.publicity__contact {
   position: relative;
-  right: 550px;
+  display: flex;
+  justify-content: center;   
+  width: 50%;  
 }
 
-.marketing__content .arrows {
-  position: relative;
-  left: 100px;
+.contact-facebook {
+  position: absolute;  
+  display: flex;
+  align-items: center;
+  color: #475993;  
+  top: 20px;
+  left: 200px;
 }
 
-.background-contact {
-  position: relative;
-  right: 117px;
-  top: 30px;
+.contact-facebook > img {
+  padding: 10px;
 }
-
-
-
-
-
+ 
 
 
