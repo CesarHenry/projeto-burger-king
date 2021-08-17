@@ -398,21 +398,20 @@ body{
   width: 100%;
 }
 
-.lunch__menu__content {
+.lunch__menu__content ul {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
 }
 
-.lunch__one {
+.lunch__menu__content ul li {
   position: relative;
   display: flex;
   justify-content: center;  
   width: 33.3%;  
 }
-
-.lunch__one > p {
+.lunch__menu__content ul li p {
   position: absolute;
   text-transform: uppercase;
   font-size: 9pt;
@@ -421,52 +420,11 @@ body{
   color: #59291C;  
 }
 
-.lunch__one > p > span {
-  font-size: 18pt;
-  color: #ED7902;  
-}
-
-.lunch__two {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 33.3%;  
-}
-
-.lunch__two > p {
-  position: absolute;
-  text-transform: uppercase;
-  font-size: 9pt;
-  bottom: 70px;
-  left: 70px;
-  color: #59291C;
-}
-
-.lunch__two > p > span {
+.lunch__menu__content ul li p span {
   font-size: 18pt;
   color: #ED7902;
 }
 
-.lunch__three {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 33.3%;  
-}
-
-.lunch__three > p {
-  position: absolute;
-  text-transform: uppercase;
-  font-size: 9pt;
-  bottom: 70px;
-  left: 70px;
-  color: #59291C;
-}
-
-.lunch__three > p > span {
-  font-size: 18pt;
-  color: #ED7902;
-}
 
 .footer {
   width: 100%;
@@ -482,6 +440,46 @@ body{
   padding: 20px;
 }
 
+.rslides__lunchs {  
+  list-style: none;
+  overflow: hidden;
+}
+
+.rslides__lunchs li {
+  -webkit-backface-visibility: hidden;  
+  width: 100%;  
+}
+
+.rslides__lunchs li:first-child {  
+  float: left;
+}
+
+
+.rslides_tabs {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.rslides_tabs li {
+  display: inline;
+  margin: 0 5px; 
+}
+
+.rslides_tabs li a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 0, 0, 0.294);
+  color: rgba(255, 0, 0, 0.294);
+  border-radius: 20px;
+  overflow: hidden;
+  text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+  background: red;
+  color: red;
+}
  
 
 
