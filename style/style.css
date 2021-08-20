@@ -70,6 +70,10 @@ body{
   width: 50%;  
 }
 
+.produtos__anuncio .whopper {
+  width: 100%;
+}
+
 .produtos__anuncio h1 {
   font-size: 20pt;
   text-transform: uppercase;
@@ -141,7 +145,7 @@ body{
 
 .combo {
   position: absolute;
-  max-width: 100%;
+  width: 100%;
   top: -160px;
   right: 8px;   
 }
