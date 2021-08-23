@@ -59,12 +59,12 @@ body {
 
 .produtos__main {
   display: flex;
-  height: 623px;
+  height: 100vh;  
   width: 100%;
-  background: #efe1da;
+  background: #EFE1DA;
 }
 
-.produtos__content {
+.produtos__content {  
   display: flex;
   align-items: center;
   justify-content: space-between;
