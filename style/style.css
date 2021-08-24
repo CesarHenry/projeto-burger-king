@@ -124,7 +124,7 @@ body {
 
 .btn:hover {
   cursor: pointer;
-  background: #ed7902;
+  background: #faaf18;
   color: black;
   transition: 0.5s;
 }
@@ -218,7 +218,16 @@ body {
 }
 
 .background-contact {
+  width: 528px;
+  height: 96px;
+  background-color: white;
+  border-radius: 12px;
   margin-top: 30px;
+}
+
+.background-contact:hover {
+  background-color: #faaf18;
+  transition: 0.5s;
 }
 
 .contact-facebook {
@@ -244,12 +253,17 @@ body {
   justify-content: center;
 }
 
-.rectangle__one {
+.rectangle {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 20%;
+  -webkit-transition: all .8s ease-in;
 }
+
+.rectangle:hover {
+  -webkit-transform: scale(1.2);
+} 
 
 .rectangle__one__content {
   position: relative;
@@ -276,13 +290,6 @@ body {
   right: 65px;
 }
 
-.rectangle__two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-}
-
 .rectangle__two__content {
   display: flex;
   align-items: center;
@@ -301,13 +308,6 @@ body {
 
 .rectangle__two__content > p > span {
   color: red;
-}
-
-.rectangle__three {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
 }
 
 .rectangle__three__content {
@@ -331,13 +331,6 @@ body {
   font-size: 20pt;
   font-weight: bold;
   color: #ed7902;
-}
-
-.rectangle__four {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
 }
 
 .rectangle__four__content {
@@ -371,13 +364,6 @@ body {
   right: 42px;
 }
 
-.rectangle__five {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-}
-
 .rectangle__five__content {
   display: flex;
   align-items: center;
@@ -402,6 +388,31 @@ body {
   color: #59291c;
 }
 
+.carousel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.lunch {
+  position: relative;  
+}
+
+.lunch > p {
+  position: absolute;
+  text-transform: uppercase;
+  color: #59291c;
+  font-size: 10pt;
+  font-weight: bold;
+  bottom: 50px;
+  left: 40px;
+}
+
+.lunch > p > span {
+  font-size: 20pt;
+  font-weight: normal;
+  color: #ed7902;
+}
 
 .footer {
   width: 100%;
