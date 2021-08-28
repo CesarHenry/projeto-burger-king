@@ -1,0 +1,31 @@
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: orange;
+  font-size: 30px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.lunch {
+  position: relative;
+}
+
+.lunch > p {
+  position: absolute;
+  text-transform: uppercase;
+  color: #59291c;
+  font-size: 10pt;
+  font-weight: bold;
+  bottom: 50px;
+  left: 40px;
+}
+
+.lunch > p > span {
+  font-size: 20pt;
+  font-weight: normal;
+  color: #ed7902;
+}

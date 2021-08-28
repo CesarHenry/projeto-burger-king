@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "BQ Regular";
+  src: url("../assets/fonts/Block\ Berthold\ BQ\ Regular.otf");
+}
+
+body {
+  font-family: "BQ Regular", Arial, Helvetica, sans-serif;
+}

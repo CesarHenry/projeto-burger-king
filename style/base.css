@@ -1,0 +1,19 @@
+/* Reset Css */
+@import "./reset.css";
+
+
+/* Global Css */
+@import "./global.css";
+@import "./container.css";
+
+/* Components */
+@import "./components/header/style.css";
+@import "./components/button/style.css";
+@import "./components/produtosMain/style.css";
+@import "./components/publicity/style.css";
+@import "./components/rectangles/style.css";
+@import "./components/carousel/style.css";
+@import "./components/footer/style.css";
+
+/* Responsivo */
+@import "./responsivo.css";

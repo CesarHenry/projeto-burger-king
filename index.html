@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burger King Challenge</title>
-    <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/container.css" />
-    <link rel="stylesheet" href="style/responsivo.css" />
+    <link rel="stylesheet" href="./style/base.css" />
 
     <!-- Css carousel -->
     <link
@@ -58,39 +55,38 @@
     <main class="produtos__main">
       <div class="produtos__content container">
         <div class="produtos__anuncio">
-          <div>
+          <div class="produtos__image">
             <h1>01 Combo <img src="assets/imagens/linha.png" alt="linha" /></h1>
             <img
               class="whopper"
               src="assets/imagens/logo-whopper.png"
               alt="banner whopper"
             />
+          </div>
+
+          <div class="produtos__info">
             <h2>R$ 19,90</h2>
             <h3>1 Whopper +1 Batata média +1 Free refil</h3>
+          </div>
+
+          <div class="produtos__button">
             <button class="btn">Quero pra já</button>
             <img class="arrow" src="assets/imagens/arrow.svg" alt="arrow" />
           </div>
         </div>
 
         <div class="produtos__combo">
-          <div class="background-combo">             
-            <img
-              class="background-yellow"
-              src="assets/imagens/wave2.svg"
-              alt="fundo combo"
-            />            
-            <img
-              class="combo"
-              src="assets/imagens/Group.png"
-              alt="imagem combo"
-            />
+          <img
+            class="combo"
+            src="assets/imagens/Group.png"
+            alt="imagem combo"
+          />
 
-            <div class="informative-combo">
-              <img src="assets/imagens/line-left.png" alt="line-left" />
-              <img src="assets/imagens/calendar.svg" alt="calendario" />
-              <h3>Promoção válida até: 08/2021</h3>
-              <img src="assets/imagens/line-right.png" alt="line-right" />
-            </div>
+          <div class="informative-combo">
+            <img src="assets/imagens/line-left.png" alt="line-left" />
+            <img src="assets/imagens/calendar.svg" alt="calendario" />
+            <h3>Promoção válida até: 08/2021</h3>
+            <img src="assets/imagens/line-right.png" alt="line-right" />
           </div>
         </div>
       </div>
@@ -115,9 +111,7 @@
 
         <div class="publicity__contact">
           <div>
-            <div class="background-contact">
-
-            </div>
+            <div class="background-contact"></div>
             <p class="contact-facebook">
               <img src="assets/imagens/Path.svg" alt="facebook" />
               Cadastre-se pelo facebook

@@ -1,0 +1,144 @@
+.rectangles {
+  width: 100%;
+}
+
+.rectangles__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  -webkit-transition: all 0.8s ease-in;
+}
+
+.rectangle:hover {
+  -webkit-transform: scale(1.2);
+}
+
+.rectangle__one__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  width: 219px;
+  height: 144px;
+  background: #faaf18;
+  border-radius: 12px;
+}
+
+.rectangle__one__content > p {
+  font-size: 16pt;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle__one__content .stars {
+  position: absolute;
+  top: 30px;
+  right: 65px;
+}
+
+.rectangle__two__content {
+  display: flex;
+  align-items: center;
+  width: 219px;
+  height: 144px;
+  background: #59291c;
+  border-radius: 12px;
+}
+
+.rectangle__two__content > p {
+  font-size: 17pt;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle__two__content > p > span {
+  color: red;
+}
+
+.rectangle__three__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  height: 144px;
+  background: #f5ece7;
+  border-radius: 12px;
+}
+
+.rectangle__three__content > p {
+  font-size: 17pt;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle__three__content > p > span {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #ed7902;
+}
+
+.rectangle__four__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  height: 144px;
+  background: #f5ece7;
+  border-radius: 12px;
+}
+
+.rectangle__four__content > p {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #475993;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle__four__content > p > span {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15pt;
+}
+
+.rectangle__four__content .king {
+  position: absolute;
+  top: 38px;
+  right: 42px;
+}
+
+.rectangle__five__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  height: 144px;
+  background: #f5ece7;
+  border-radius: 12px;
+}
+
+.rectangle__five__content > p {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #ed7902;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle__five__content > p > span {
+  font-weight: normal;
+  font-size: 15pt;
+  color: #59291c;
+}
