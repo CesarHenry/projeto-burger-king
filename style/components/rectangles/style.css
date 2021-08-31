@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   width: 20%;
-  -webkit-transition: all 0.8s ease-in;
+  -webkit-transition: all 0.8s ease-in;  
 }
 
 .rectangle:hover {
@@ -26,7 +26,7 @@
   align-items: center;
   margin: 40px 0;
   width: 219px;
-  height: 144px;
+  height: 144px; 
   background: #faaf18;
   border-radius: 12px;
 }

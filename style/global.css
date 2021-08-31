@@ -1,9 +1,19 @@
 @charset "UTF-8";
+
+:root  {
+
+  --font-family: "BQ Regular", Arial, Helvetica, sans-serif;
+}
+
 @font-face {
   font-family: "BQ Regular";
   src: url("../assets/fonts/Block\ Berthold\ BQ\ Regular.otf");
 }
 
 body {
-  font-family: "BQ Regular", Arial, Helvetica, sans-serif;
+  font-family: var(--font-family); 
+}
+
+img {
+  max-width: 100%;
 }

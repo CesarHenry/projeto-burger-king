@@ -18,3 +18,29 @@
   color: black;
   transition: 0.5s;
 }
+
+.btn-facebook {
+  width: 90%;
+  height: 96px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 30px;
+  border: none;  
+}
+
+.btn-facebook:hover {
+  background-color: #faaf18;
+  transition: 0.5s;
+}
+
+.contact-facebook {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #475993;
+  font-weight: bold;
+}
+
+.contact-facebook > img {
+  padding: 10px;
+}

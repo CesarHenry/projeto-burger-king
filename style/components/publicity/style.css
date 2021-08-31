@@ -47,35 +47,8 @@
   right: 10px;
 }
 
-.publicity__contact {
-  position: relative;
+.publicity__contact {  
   display: flex;
   justify-content: center;
   width: 50%;
-}
-
-.background-contact {
-  width: 528px;
-  height: 96px;
-  background-color: white;
-  border-radius: 12px;
-  margin-top: 30px;
-}
-
-.background-contact:hover {
-  background-color: #faaf18;
-  transition: 0.5s;
-}
-
-.contact-facebook {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  color: #475993;
-  top: 50px;
-  left: 200px;
-}
-
-.contact-facebook > img {
-  padding: 10px;
 }
