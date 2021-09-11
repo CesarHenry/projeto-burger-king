@@ -110,8 +110,9 @@
   }
 
   .rectangles__content {
-    width: 50%;
-    flex-direction: column;   
+   
+    
+    flex-wrap: wrap;   
   }
 
   .carousel {
