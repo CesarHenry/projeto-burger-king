@@ -43,14 +43,32 @@
                   Favoritos</a
                 >
               </li>
-              <li>
-                <img src="assets/imagens/icon-menu.png" alt="icon menu" />
+              <li class="menu__offcanvas js-buttonOffcanvas">
+                <a href="#">
+                  <img src="assets/imagens/icon-menu.png" alt="icon menu"/>
+                </a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
+
+
+    <div class="menu__hamburguer js-menuOffcanvas">
+      <div class="menu__close">
+        <img src="assets/imagens/logo-group.png" alt="logo">
+        <a href="#">
+          <img class="js-buttonOffCanvasClose" src="assets/imagens/windowclose_104378.png" alt="close button">
+        </a>
+      </div>    
+      <div class="links">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#cupons">Cupons</a>
+        <a href="#">Restaurantes</a>
+        <a href="#">Delivery</a>
+      </div>
+    </div>
 
     <main class="produtos__main">
       <div class="produtos__content container">
@@ -109,7 +127,7 @@
           </div>
         </div>
 
-        <div class="publicity__contact">         
+        <div class="publicity__contact" id="cardapio">         
             <button class="btn-facebook">              
               <p class="contact-facebook">
                 <img src="assets/imagens/Path.svg" alt="facebook" />
@@ -153,7 +171,7 @@
       </div>
     </section>
 
-    <section class="carousel container">
+    <section class="carousel container" id="cupons">
       <div class="lunch">
         <img src="assets/imagens/Group-1.png" alt="combo1" />
         <p>
@@ -219,5 +237,9 @@
         slidesToScroll: 3,
       });
     </script>
+
+    <script src="js/menuOffcanvas.js"></script>
+
+    
   </body>
 </html>

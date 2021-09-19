@@ -8,6 +8,7 @@
 
 /* Components */
 @import "./components/header/style.css";
+@import "./components/menuOffcanvas/style.css";
 @import "./components/button/style.css";
 @import "./components/produtosMain/style.css";
 @import "./components/publicity/style.css";
